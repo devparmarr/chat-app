@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #BBC1C5;
+    background-color: #0B141A;
+}
+
+
+.navbar{
+    
+    height: 8vh;
+    display: flex;
+    color: #BBC1C5;
+    background-color: #202C33;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: auto;
+    margin-bottom:1vh ;
+}
+
+.navbar #logo{
+    margin-inline:4vw ;
+}
+
+.navMenus{
+    padding-inline: 4vw;
+}
+
+.navMenus ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+.navMenus ul li{
+    padding: 10px;
+}
+
+.login-page{
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+
+}
+
+.lgndiv{
+    display: flex;
+    height: 4vh;
+    gap:1vw;
+}
+
+.lgndiv input{
+    flex: 6;
+    padding: 5px;
+}
+
+.lgndiv button{
+    flex: 4;
+}
+
+
+.chatRoom-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.messages-container{
+    height: 80vh;
+    margin-bottom: 2vh;
+    margin-inline: 1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+
+}
+
+.sendMessages-container{
+    display: flex;
+    height: 7vh;
+    margin-inline: 1vw;
+}
+
+.sendMessages-container input{
+    flex: 8;
+    border-radius: 20px 20px;
+    padding-inline: 20px;
+    margin-right: 1vw;
+}
+
+.sendMessages-container button{
+    flex: 2;
+    border-radius: 20px 20px;
+    text-align: center;
+}
+
+
+.message{
+    color: #BBC1C5;
+    width: fit-content;
+    padding: 10px;
+    margin: 1vw;
+    border-radius: 5px 0px 5px 5px;
+    max-width: 50%;
+}
+
+.send{
+    background-color: #005c3a ;
+    align-self: flex-end;
+}
+
+.recieved{
+    background-color: #202B33;
+}
